@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  box-sizing: border-box;
+}
+
+/* home page */
+.main-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-children {
+  @apply flex-1;
+}
+
+/* Header */
+.nav-link {
+  @apply px-3 rounded-lg;
+}
+
+/* Footer */
